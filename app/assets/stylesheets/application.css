@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+ .inline-form {
+  display: inline-block; /* Ensure it's displayed as inline-block */
+  vertical-align: middle; /* Align container vertically */
+}
+
+.inline-form .form-control {
+  border-top-right-radius: 0; /* Round only top-right corner */
+  border-bottom-right-radius: 0; /* Round only bottom-right corner */
+}
+
+.inline-form .btn {
+  border-top-left-radius: 0; /* Round only top-left corner */
+  border-bottom-left-radius: 0; /* Round only bottom-left corner */
+}

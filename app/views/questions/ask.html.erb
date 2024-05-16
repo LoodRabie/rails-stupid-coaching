@@ -1,4 +1,13 @@
-<form action="/answer" method="get" data-turbo="false">
-  <input type="text" name="yourAnswer" placeholder="Don't ask stupid questions">
-  <input type="submit" value="Ask!">
-</form>
+<p>Ask your coach anything</p>
+    <div class="row">
+      <div class="col">
+        <form class="form-inline" action="/answer" method="get" data-turbo="false">
+          <div class="input-group inline-form">
+            <input type="text" name="yourAnswer" class="form-control">
+            <div class="input-group-append">
+              <input type="submit"class="btn btn-primary" value="Ask">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
